@@ -4,9 +4,9 @@ public class MinMutationsUtility {
 	public int numMutations(String start, String end, String[] bank) {
 		if(start.equals(end))				//mutated string is same as start
 			return 0;
-		if(!searchGene(bank,end)) {			//check if mutated is valid
-			return -1;
-		}
+//		if(!searchGene(bank,end)) {			//check if mutated is valid
+//			return -1;
+//		}
 		int counter = 0;
 		StringBuilder state1 = new StringBuilder(start);
 		boolean state = false;
