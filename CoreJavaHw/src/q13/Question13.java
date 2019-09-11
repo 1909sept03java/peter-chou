@@ -5,6 +5,14 @@ public class Question13 {
 		triangularBinary();
 	}
 	
+	/*
+	 * Prints binary (0 or 1) alternating in a triangular shape
+	 * I made a switch variable to alternate between 0 and 1
+	 * A counter called reps to keep track of number of characters per line starting at 0 and ending at 4
+	 * Another counter called counter to make a triangle of height 4
+	 * 
+	 */
+	
 	public static void triangularBinary() {
 		int counter = 0;
 		int mySwitch = 0;

@@ -3,6 +3,9 @@ package q24;
 
 public class Question24 {
 	
+	/*
+	 * Use switch statements to determine if remainder is greater than or equal to 10
+	 */
 	public static String baseToHex(int n) {
 		StringBuilder s = new StringBuilder();
 		while(n != 0) {

@@ -18,6 +18,10 @@ public class Question8 {
 		 }
 	}
 	
+	/*
+	 * Check string contents only up to half the string length since other end is same
+	 * Anytime a char is not the same as its string length subtracted by index, it is not a palindrome.
+	 */
 	private static boolean isPalindrome(String s)
 	{
 		int halfpoint = s.length()/2;

@@ -8,6 +8,7 @@ public class Question9 {
 		initializePrintPrime(0,100);
 	}
 	
+	
 	public static void initializePrintPrime(int start,int end) {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		for(int i = start; i <= end; i++) {
@@ -15,6 +16,7 @@ public class Question9 {
 		}
 		
 		for(int i : list) {
+			//ignore 0 and 1 for prime numbers
 			if(i == 0 || i == 1) {
 				continue;
 			}
@@ -24,7 +26,10 @@ public class Question9 {
 			
 		}
 		
-		
+	/*
+	 * Only need to check values up to half of input
+	 * Use modulus to test if value has no remainder which makes it not prime
+	 */
 	}
 	
 	private static boolean isPrime(int n) {

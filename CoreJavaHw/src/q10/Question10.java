@@ -3,6 +3,9 @@ package q10;
 
 public class Question10 {
 	
+	/*
+	 * Simple ternary to check which value is lesss
+	 */
 	public static int min(int a, int b) {
 		return a < b ? a : b; 
 			

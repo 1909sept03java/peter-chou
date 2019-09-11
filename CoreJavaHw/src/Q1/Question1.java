@@ -23,6 +23,10 @@ public class Question1 {
 		return arr;
 	}
 	
+	/*
+	 * Returns true or false if the list is sorted or not
+	 */
+	
 	private static boolean checkSorted(int[] arr) {
 		for(int i = 0; i< arr.length-1;i++)
 		{

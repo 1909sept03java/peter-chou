@@ -9,6 +9,13 @@ public class Question14 {
 		switchCase(2);
 		switchCase(3);
 	}
+	
+	/*
+	 * Demonstrates switch case statements
+	 * Case 1 gives square root of a number
+	 * Case 2 gives current Date
+	 * Case 3 puts a String into a list by split
+	 */
 	public static void switchCase(int n){
 		switch(n) {
 		case 1:
